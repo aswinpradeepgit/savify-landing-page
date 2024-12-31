@@ -124,7 +124,7 @@ const FeatureCard = ({ icon: Icon, title, description }) => {
     switch (title) {
       case "Smart Bookmarking": return "border-green-200";
       case "Voice Notes": return "border-blue-200";
-      case "Active Learning Assistant": return "border-purple-200";
+      case "Learning Assistant": return "border-purple-200";
       case "Smart Reminders": return "border-yellow-200";
       default: return "border-gray-200";
     }
@@ -134,7 +134,7 @@ const FeatureCard = ({ icon: Icon, title, description }) => {
     switch (title) {
       case "Smart Bookmarking": return "bg-green-50";
       case "Voice Notes": return "bg-blue-50";
-      case "Active Learning Assistant": return "bg-purple-50";
+      case "Learning Assistant": return "bg-purple-50";
       case "Smart Reminders": return "bg-yellow-50";
       default: return "bg-gray-50";
     }
@@ -144,7 +144,7 @@ const FeatureCard = ({ icon: Icon, title, description }) => {
     switch (title) {
       case "Smart Bookmarking": return "text-green-600";
       case "Voice Notes": return "text-blue-600";
-      case "Active Learning Assistant": return "text-purple-600";
+      case "Learning Assistant": return "text-purple-600";
       case "Smart Reminders": return "text-yellow-600";
       default: return "text-gray-600";
     }
